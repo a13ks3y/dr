@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="https://a13ks3y.github.io/reset.css">
     <link rel="stylesheet" href="https://a13ks3y.github.io/main.css">
     <style type="text/css">
+        body {
+            background-image: url("assets/4.gif");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
+            color: white;
+        }
+        body:hover {
+            background-image: url("assets/0.gif");
+        }
         header {
             padding: 0.666rem;
         }
@@ -18,6 +28,13 @@
         #ctx {
             border: 1px solid black;
             margin: 1.666rem;
+            opacity: 0.666;
+        }
+        main {
+            display: block;
+            width: 100vw;
+            height: 90vh;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -26,7 +43,7 @@
         <h1>ХУЁВЫЕ ГОНКИ</h1>
     </header>
     <main>
-        <canvas id="ctx" width="640" height="480"></canvas>
+        <canvas id="ctx" width="800" height="600"></canvas>
     </main>
     <footer>
         (c) Blah-Blah-Blah...whatever...
